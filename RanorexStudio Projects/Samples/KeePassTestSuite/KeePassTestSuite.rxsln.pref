@@ -1,0 +1,20 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{AC2AD819-865C-4A36-9AFC-B17715DBA647}</string>
+      <string>6e12a760-6636-488c-b3e9-7d256aa61ae5</string>
+      <string>60513a05-eab7-41e7-8c10-e51c735edc2e</string>
+      <string>0bb38c0d-d0da-4719-9790-f43f32f5cb6c</string>
+      <string>d37faac4-f0a5-4adf-86e8-4fbaee67b170</string>
+      <string>36b3ba50-0797-4cde-81e9-873f5ee516bd</string>
+      <string>06034367-fafa-4251-8bc4-e13a3b6c091a</string>
+      <string>8a2c779f-8e28-4633-8a8b-37d39161f546</string>
+      <string>77a1ee00-9c62-4065-a279-c558e56551b4</string>
+      <string>7230104a-3274-4758-9034-592ec4e96356</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution KeePassTestSuite[KeePassTestSuite[]]]&#xD;&#xA;Solution KeePassTestSuite\KeePassTestSuite\Recordings&#xD;&#xA;Solution KeePassTestSuite" />
+  <StartupProject value="{AC2AD819-865C-4A36-9AFC-B17715DBA647}" />
+</Properties>

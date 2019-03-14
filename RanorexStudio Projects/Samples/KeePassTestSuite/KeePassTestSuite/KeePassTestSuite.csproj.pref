@@ -1,0 +1,11 @@
+﻿<Properties>
+  <Array name="active">
+    <Element value="Recordings\AddEntry.rxrec" />
+  </Array>
+  <Array name="bookmarks" />
+  <Array name="files">
+    <Element value="KeePassTestSuite.rxtst" />
+    <Element value="Recordings\AddEntry.rxrec" />
+  </Array>
+  <Properties name="projectSavedData" />
+</Properties>

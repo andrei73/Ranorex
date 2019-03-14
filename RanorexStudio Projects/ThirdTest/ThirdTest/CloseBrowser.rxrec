@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="a53d1029-da60-4a01-a604-390c54016cd9"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="ThirdTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="8a375b7d-d265-4106-813f-73ab5e79ae13">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="854dd850-c40e-44da-8cb1-d00f0e259f55"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="0aed4f57-d9a3-46eb-97ed-5597f9181a7e"
+	name="ThirdTestRepository"
+	relativepath="ThirdTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ThirdTestRepository"
+		namespace="ThirdTest">
+		</codegen>
+		<rootfolder
+		id="6f57987c-90f8-49b7-a522-c5bd8451ffbd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

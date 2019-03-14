@@ -1,0 +1,11 @@
+﻿<Properties>
+  <ActiveConfiguration value="Debug" />
+  <ActivePlatform value="x86" />
+  <SerializedValue name="ModuleBrowserState">
+    <ArrayOfString xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+      <string>{32E39D51-9AE3-435D-AF4A-B8B166497590}</string>
+    </ArrayOfString>
+  </SerializedValue>
+  <ProjectBrowserState value="[Solution ThirdTest[ThirdTest[]]]&#xD;&#xA;Solution ThirdTest\ThirdTest\ThirdTest.rxtst&#xD;&#xA;Solution ThirdTest\ThirdTest\Program.cs" />
+  <StartupProject value="{32E39D51-9AE3-435D-AF4A-B8B166497590}" />
+</Properties>

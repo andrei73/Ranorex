@@ -1,0 +1,118 @@
+﻿<repository
+id="beacbc46-e798-4015-ab67-3e30687fd279"
+name="MyTestRepository"
+rxversion="9.0">
+	<codegen
+	classname="MyTestRepository"
+	namespace="MyTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="d32382c6-cbd1-4bd5-a7d3-451260cce983"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="1bccd1b0-cd1e-47f2-85b0-09be9554960f"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="ab8e7d43-771b-45a1-9350-26b12dd4418f"
+			name="DivTagPRODUSE"
+			refimgid="ca74a7bf-553c-474a-826e-566b356337ab"
+			refpath="/dom[@domain='www.emag.ro']//nav[#'auxiliary']/div/div/ul[1]/li/div[@innertext~'^\ PRODUSE\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']//nav[#'auxiliary']/?/?/div/ul[1]/?/?/div[@innertext~'^\ PRODUSE\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<item
+			addcaps="unknown,webelement,spantag"
+			capname="spantag"
+			id="b558f1c2-c4f3-4b8c-a354-eefff2e5be76"
+			name="PCPerifericeSoftware"
+			refimgid="f6dfb437-483a-459a-85bc-5c43d8fe42d5"
+			refpath="/dom[@domain='www.emag.ro']/body/div[3]/div[1]/div/div[1]/ul/li[2]/a/span[@innertext='PC, Periferice &amp; Software']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']/body/div[3]/div[1]//ul/li[2]/?/?/span[@innertext='PC, Periferice &amp; Software']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="3fdc87a1-3c27-4f8c-86a5-df59b09977cd"
+			name="DesktopPC"
+			refimgid="eadd5dea-ebdd-4c6d-a5b6-8b1058dafa12"
+			refpath="/dom[@domain='www.emag.ro']/body/div[3]/div[1]/div/div[2]/div[2]/div[2]/ul/li[1]/div[1]/a[@innertext='Desktop PC']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']/body/div[3]/div[1]/div/div[2]/div[2]/?/?/ul/li[1]/div[1]/a[@innertext='Desktop PC']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="49d9d285-8180-4c7e-a9e0-c1187e3a3d92"
+			name="InStoc"
+			refimgid="62fbe47b-7bdd-4e9f-9e5b-3b9037448d07"
+			refpath="/dom[@domain='www.emag.ro']//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]/div/div/a[@innertext='In Stoc ']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]//a[@innertext='In Stoc ']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="04221bb4-ee9b-4403-b2b7-c9b53577943d"
+			name="EMAG"
+			refimgid="3fb8aa54-c3b3-4609-8c56-53b14fca216f"
+			refpath="/dom[@domain='www.emag.ro']//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[20]/div/div[1]/a[@innertext='eMAG ']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[20]//a[@innertext='eMAG ']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="dcbe22c0-f21f-41bf-aa65-e018d07a6515"
+			name="DesktopGamingLenovoLegionC53019ICB"
+			refimgid="641e84b0-bc5a-4d0c-8551-3457228f330a"
+			refpath="/dom[@domain='www.emag.ro']//div[#'card_grid']/div[1]/div/div/div[1]/div[1]/a/div/img[@alt~'^Desktop\ Gaming\ Lenovo\ Leg']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']//div[#'card_grid']/div[1]/div/div/div[1]/div[1]//img[@alt~'^Desktop\ Gaming\ Lenovo\ Leg']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="c978ffe0-7f20-4ac5-89f4-03f00e6d16c3"
+			name="ATagReview"
+			refimgid="db99d3a7-de9d-4b0a-bc68-746e2ab670b6"
+			refpath="/dom[@domain='www.emag.ro']//ul[#'product_navbar_sticky']/li[3]/a[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.emag.ro']//ul[#'product_navbar_sticky']/li[3]/a[@innertext~'^\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']
+			</item>
+			<basepath>
+				/dom[@domain='www.emag.ro']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

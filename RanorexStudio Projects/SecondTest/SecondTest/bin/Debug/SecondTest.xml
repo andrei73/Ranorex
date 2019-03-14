@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>SecondTest</name>
+    </assembly>
+    <members>
+        <member name="T:SecondTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SecondTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the SecondTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:SecondTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SecondTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SecondTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SecondTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SecondTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SecondTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SecondTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:SecondTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the SecondTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:SecondTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SecondTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SecondTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SecondTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SecondTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SecondTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SecondTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:SecondTest.Recording1.repo">
+            <summary>
+            Holds an instance of the SecondTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:SecondTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:SecondTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:SecondTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:SecondTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:SecondTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:SecondTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:SecondTest.SecondTestRepository">
+            <summary>
+            The class representing the SecondTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:SecondTest.SecondTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the SecondTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:SecondTest.SecondTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.Branding">
+            <summary>
+            The Branding item.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.BrandingInfo">
+            <summary>
+            The Branding item info.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.ATagLogIn">
+            <summary>
+            The ATagLogIn item.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.ATagLogInInfo">
+            <summary>
+            The ATagLogIn item info.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.ATagLogInUsingFacebook">
+            <summary>
+            The ATagLogInUsingFacebook item.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.ATagLogInUsingFacebookInfo">
+            <summary>
+            The ATagLogInUsingFacebook item info.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.AndreiSăvoiu">
+            <summary>
+            The AndreiSăvoiu item.
+            </summary>
+        </member>
+        <member name="P:SecondTest.SecondTestRepositoryFolders.ApplicationUnderTestAppFolder.AndreiSăvoiuInfo">
+            <summary>
+            The AndreiSăvoiu item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,60 @@
+﻿<repository
+id="1ed36d9f-1279-4b18-bdb2-4e03435d1f25"
+name="FirstTest1Repository"
+rxversion="9.0">
+	<codegen
+	classname="FirstTest1Repository"
+	namespace="FirstTest1">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="194c01c2-c2bb-4ee8-aeee-f4a422e2b6e3"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="form,nativewindow"
+		capname="form"
+		id="964f60bb-9366-4ec6-a109-301c1ba39b78"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="picture,control,nativewindow"
+			capname="picture"
+			id="f4e78049-69be-436f-952c-1bcd618c0581"
+			name="RxStudioLogo"
+			refimgid="e379b7fc-ff41-4ea5-8669-3256641c8d18"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist/tabpage/picture[@controlname='RxStudioLogo']"
+			searchtimeout="30000ms">
+				/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']
+			</item>
+			<item
+			addcaps="text,control,nativewindow"
+			capname="text"
+			id="1c0e8023-e711-4c5a-9305-17cc732e6403"
+			name="LblWelcomeMessage"
+			refimgid="e892efd8-8ecf-46b5-8409-db379fa98bc7"
+			refpath="/form[@controlname='RxMainFrame']/tabpagelist[@controlname='RxTabcontrol']/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']"
+			searchtimeout="30000ms">
+				/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/text[@controlname='lblWelcomeMessage']
+			</item>
+			<basepath>
+				/form[@processname='RxDemoApp']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAAXNSR0IArs4c6QAAAARnQU1BAACx
+jwv8YQUAAAAJcEhZcwAADsQAAA7EAZUrDhsAAACdSURBVDhPY0AGISEhlUFBQb+IxDOg2iAgODj4
+FBB3QbmkA6Dm/yD6AZvwvPvsQhvhmBUTXxcW5gVrQgYgA9LS0ljvcwpZ3GcXdsSH/zOEMkO1IQDI
+ACD+DcSfsGCQHLpYLVQrBAAF/tfX1zNBuXhBeHi4AlD9bygXAkAGQJlEgVEDhrUBjBAeYYBhADB7
+BoAMAeIGIvB8IAYawMAAAA20kY5E9ZbiAAAAAElFTkSuQmCC
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

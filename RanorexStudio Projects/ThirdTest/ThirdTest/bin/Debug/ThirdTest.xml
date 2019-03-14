@@ -1,0 +1,239 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ThirdTest</name>
+    </assembly>
+    <members>
+        <member name="T:ThirdTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ThirdTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the ThirdTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ThirdTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ThirdTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ThirdTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:ThirdTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the ThirdTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ThirdTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ThirdTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ThirdTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:ThirdTest.Recording1.repo">
+            <summary>
+            Holds an instance of the ThirdTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:ThirdTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:ThirdTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:ThirdTest.ThirdTestRepository">
+            <summary>
+            The class representing the ThirdTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.ThirdTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the ThirdTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:ThirdTest.ThirdTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.ConnectPoweredByGarmin">
+            <summary>
+            The ConnectPoweredByGarmin item.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.ConnectPoweredByGarminInfo">
+            <summary>
+            The ConnectPoweredByGarmin item info.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.SignIn">
+            <summary>
+            The SignIn item.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.SignInInfo">
+            <summary>
+            The SignIn item info.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.Username">
+            <summary>
+            The Username item.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.UsernameInfo">
+            <summary>
+            The Username item info.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginBtnSignin">
+            <summary>
+            The LoginBtnSignin item.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.LoginBtnSigninInfo">
+            <summary>
+            The LoginBtnSignin item info.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.AndreiSavoiu">
+            <summary>
+            The AndreiSavoiu item.
+            </summary>
+        </member>
+        <member name="P:ThirdTest.ThirdTestRepositoryFolders.ApplicationUnderTestAppFolder.AndreiSavoiuInfo">
+            <summary>
+            The AndreiSavoiu item info.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

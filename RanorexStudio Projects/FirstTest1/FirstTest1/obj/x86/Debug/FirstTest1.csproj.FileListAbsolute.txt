@@ -1,0 +1,10 @@
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\FirstTest1.rxtmg
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\FirstTest1.rxtst
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\FirstTest1.exe.config
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\FirstTest1.xml
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\FirstTest1.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\FirstTest1.pdb
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\obj\x86\Debug\FirstTest1.csprojResolveAssemblyReference.cache
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\obj\x86\Debug\FirstTest1.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\obj\x86\Debug\FirstTest1.pdb

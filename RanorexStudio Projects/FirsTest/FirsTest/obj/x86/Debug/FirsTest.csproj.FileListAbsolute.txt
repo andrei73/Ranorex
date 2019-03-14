@@ -1,0 +1,10 @@
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\FirsTest.rxtmg
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\FirsTest.rxtst
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\FirsTest.exe.config
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\FirsTest.xml
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\FirsTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\FirsTest.pdb
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\obj\x86\Debug\FirsTest.csprojResolveAssemblyReference.cache
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\obj\x86\Debug\FirsTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirsTest\FirsTest\obj\x86\Debug\FirsTest.pdb

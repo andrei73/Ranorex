@@ -1,0 +1,234 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FirsTest</name>
+    </assembly>
+    <members>
+        <member name="T:FirsTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:FirsTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the FirsTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:FirsTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FirsTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FirsTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FirsTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FirsTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FirsTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FirsTest.FirsTestRepository">
+            <summary>
+            The class representing the FirsTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:FirsTest.FirsTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the FirsTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepository.RanorexStudioWebTestPage">
+            <summary>
+            The RanorexStudioWebTestPage folder.
+            </summary>
+        </member>
+        <member name="T:FirsTest.FirsTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FirsTest.FirsTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FirsTest.FirsTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="T:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder">
+            <summary>
+            The RanorexStudioWebTestPageAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new RanorexStudioWebTestPage  folder.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.HeaderTop">
+            <summary>
+            The HeaderTop item.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.HeaderTopInfo">
+            <summary>
+            The HeaderTop item info.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.OpenDialog">
+            <summary>
+            The OpenDialog item.
+            </summary>
+        </member>
+        <member name="P:FirsTest.FirsTestRepositoryFolders.RanorexStudioWebTestPageAppFolder.OpenDialogInfo">
+            <summary>
+            The OpenDialog item info.
+            </summary>
+        </member>
+        <member name="T:FirsTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:FirsTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the FirsTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:FirsTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FirsTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FirsTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FirsTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FirsTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FirsTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FirsTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:FirsTest.Recording1.repo">
+            <summary>
+            Holds an instance of the FirsTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:FirsTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FirsTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FirsTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FirsTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FirsTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FirsTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

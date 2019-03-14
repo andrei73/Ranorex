@@ -1,0 +1,98 @@
+﻿<repository
+id="0aed4f57-d9a3-46eb-97ed-5597f9181a7e"
+name="ThirdTestRepository"
+rxversion="9.0">
+	<codegen
+	classname="ThirdTestRepository"
+	namespace="ThirdTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="6f57987c-90f8-49b7-a522-c5bd8451ffbd"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="854dd850-c40e-44da-8cb1-d00f0e259f55"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="f84b9dcb-c6f7-4dae-bd35-f501e33b1eb4"
+			name="ConnectPoweredByGarmin"
+			refimgid="32395142-f25f-4a84-b87e-34cdb1f062b9"
+			refpath="/dom[@domain='connect.garmin.com']//div[#'global-header-wrapper']/div/div[1]/a[@innertext='Garmin Connect']"
+			searchtimeout="30000ms">
+				/dom[@domain='connect.garmin.com']//div[#'global-header-wrapper']//a[@innertext='Garmin Connect']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="99bb516f-8c65-48d9-b8d7-c690b2e7c031"
+			name="SignIn"
+			refimgid="6bdcb3d9-f45e-4350-bdd3-45bcdbed04ac"
+			refpath="/dom[@domain='connect.garmin.com']//div[#'global-header-wrapper']/div/div[2]/ul/li[1]/a[@innertext='Sign In']"
+			searchtimeout="30000ms">
+				/dom[@domain='connect.garmin.com']//div[#'global-header-wrapper']/div/div[2]/ul/?/?/a[@innertext='Sign In']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="163a84a9-f06e-4cb1-b027-2b838a9e0ca6"
+			name="Username"
+			refimgid="91f501e5-004c-4a99-8a6e-b3bffb546102"
+			refpath="/dom[@domain='connect.garmin.com']//iframe[#'gauth-widget-frame-gauth-widget']//input[#'username']"
+			searchtimeout="30000ms">
+				/dom[@domain='connect.garmin.com']//iframe[#'gauth-widget-frame-gauth-widget']//input[#'username']
+			</item>
+			<item
+			addcaps="unknown,webelement,buttontag"
+			capname="buttontag"
+			id="eae2362f-bd72-4e85-966f-c1e334ba1998"
+			name="LoginBtnSignin"
+			refimgid="7c12aa40-40b3-4930-8dac-0b7d8c6cdaa6"
+			refpath="/dom[@domain='connect.garmin.com']//iframe[#'gauth-widget-frame-gauth-widget']//button[#'login-btn-signin']"
+			searchtimeout="30000ms">
+				/dom[@domain='connect.garmin.com']//iframe[#'gauth-widget-frame-gauth-widget']//button[#'login-btn-signin']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="e754fe05-966c-4639-b828-7398c094c033"
+			name="AndreiSavoiu"
+			refimgid="ed126095-cd16-4df6-bb4c-fc333dd13bbb"
+			refpath="/dom[@domain='connect.garmin.com']/body/div[1]/div[3]/header/div[2]/div[4]/a[@href='https://connect.garmin.com/modern/profile/Andrei.Savoiu']/img[@alt='Andrei.Savoiu']"
+			searchtimeout="30000ms">
+				/dom[@domain='connect.garmin.com']/body/div[1]/div[3]/header/div[2]/div[4]/a[@href~'^https://connect\.garmin\.co']/img[@alt='Andrei.Savoiu']
+			</item>
+			<basepath>
+				/dom[@domain='connect.garmin.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>

@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="8c3ac9e0-620e-41af-b77d-88bcde434e47"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseAUT"
+	namespace="FirstTest1">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="9cdf8e5a-6565-46d2-8f9d-933584442b12">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="964f60bb-9366-4ec6-a109-301c1ba39b78"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='RxDemoApp']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="1ed36d9f-1279-4b18-bdb2-4e03435d1f25"
+	name="FirstTest1Repository"
+	relativepath="FirstTest1Repository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="FirstTest1Repository"
+		namespace="FirstTest1">
+		</codegen>
+		<rootfolder
+		id="194c01c2-c2bb-4ee8-aeee-f4a422e2b6e3"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseAUT.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="1e674b20-1cbb-419e-8952-161a1f065f2d"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="FirsTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				http://www.ranorex.com/web-testing-examples/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="fbc40d75-56d8-4034-9db4-c05af26784c8"
+	name="FirsTestRepository"
+	relativepath="FirsTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="FirsTestRepository"
+		namespace="FirsTest">
+		</codegen>
+		<rootfolder
+		id="b702c94c-c3f0-4a15-bf71-6c3e87cea769"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

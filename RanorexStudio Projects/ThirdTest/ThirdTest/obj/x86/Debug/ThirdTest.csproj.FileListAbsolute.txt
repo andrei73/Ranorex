@@ -1,0 +1,10 @@
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\ThirdTest.rxtmg
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\ThirdTest.rxtst
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\ThirdTest.exe.config
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\ThirdTest.xml
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\ThirdTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\ThirdTest.pdb
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\obj\x86\Debug\ThirdTest.csprojResolveAssemblyReference.cache
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\obj\x86\Debug\ThirdTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\ThirdTest\ThirdTest\obj\x86\Debug\ThirdTest.pdb

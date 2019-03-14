@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="240f49bf-b253-4aad-a28e-0ddb90d07b5a"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="CloseBrowser"
+	namespace="FirsTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<closeapprecorditem
+		enabled="True"
+		graceperiod="0ms"
+		method="CloseWindow"
+		optional="False"
+		searchpropertyid="88640eb7-df36-49d4-ab21-59de0ad57656">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<info
+			id="7d049bab-a590-46df-a3ae-e74fe1acb123"
+			sourcename="RepositoryEditor">
+				<path>
+					/form[@processname='chrome']
+				</path>
+			</info>
+		</closeapprecorditem>
+	</recorditems>
+	<repository
+	id="fbc40d75-56d8-4034-9db4-c05af26784c8"
+	name="FirsTestRepository"
+	relativepath="FirsTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="FirsTestRepository"
+		namespace="FirsTest">
+		</codegen>
+		<rootfolder
+		id="b702c94c-c3f0-4a15-bf71-6c3e87cea769"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		CloseBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

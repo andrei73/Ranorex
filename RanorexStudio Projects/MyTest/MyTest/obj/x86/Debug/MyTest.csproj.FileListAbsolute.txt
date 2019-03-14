@@ -1,0 +1,10 @@
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.rxtmg
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.rxtst
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.exe.config
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.xml
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\MyTest.pdb
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.csprojResolveAssemblyReference.cache
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\obj\x86\Debug\MyTest.pdb

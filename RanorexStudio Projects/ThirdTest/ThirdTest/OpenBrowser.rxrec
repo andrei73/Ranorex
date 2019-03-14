@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="353dc9e5-602a-4d70-9b1c-6ffbb4b6f141"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="ThirdTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://connect.garmin.com/en-US/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="0aed4f57-d9a3-46eb-97ed-5597f9181a7e"
+	name="ThirdTestRepository"
+	relativepath="ThirdTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="ThirdTestRepository"
+		namespace="ThirdTest">
+		</codegen>
+		<rootfolder
+		id="6f57987c-90f8-49b7-a522-c5bd8451ffbd"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

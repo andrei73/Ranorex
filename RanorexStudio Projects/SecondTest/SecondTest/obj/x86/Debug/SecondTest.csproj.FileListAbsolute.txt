@@ -1,0 +1,10 @@
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\SecondTest.rxtmg
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\SecondTest.rxtst
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\SecondTest.exe.config
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\SecondTest.xml
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\SecondTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\SecondTest.pdb
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\obj\x86\Debug\SecondTest.csprojResolveAssemblyReference.cache
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\obj\x86\Debug\SecondTest.exe
+C:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\SecondTest\SecondTest\obj\x86\Debug\SecondTest.pdb

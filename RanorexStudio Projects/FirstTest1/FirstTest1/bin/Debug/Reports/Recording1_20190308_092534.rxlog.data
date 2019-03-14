@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="7eef7b0cd600b94"
+		totalerrorcount="1"
+		totalwarningcount="1"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="savoiuan"
+		rxversion="9.0.0.0"
+		host="RACKJJTT4W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="1920x1080"
+		timestamp="3/8/2019 9:25:40 AM"
+		timestampiso="2019-03-08T07:25:40"
+		endtime="3/8/2019 9:26:46 AM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to find item 'FirstTest1Repository.ApplicationUnderTest.RxStudioLogo'. Please check that your whitelist allows Ranorex to access the process.
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.731"
+			timeRelativeToTestModuleStartTime="00:05.732"
+			timeWallClock="09:25:46"
+			time="00:05.731"
+			level="Warn"
+			category="General"
+			errimg="images_Recordin_3a0a9429\Recordin_3a0a9429_d40da3ee_trace.jpg"
+			errthumb="images_Recordin_3a0a9429\Recordin_3a0a9429_d40da3ee_trace_thumb.jpg">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.0/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.875"
+			timeRelativeToTestModuleStartTime="00:05.876"
+			timeWallClock="09:25:46"
+			time="00:05.875"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_3a0a9429\Recordin_3a0a9429_91a60991_trace.jpg"
+			errthumb="images_Recordin_3a0a9429\Recordin_3a0a9429_91a60991_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.RxStudioLogo' at 121;48.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']"
+				fullname="FirstTest1Repository.ApplicationUnderTest.RxStudioLogo"
+				id="f4e7804969be436f952c1bcd618c0581"
+				timeout="60000"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\Recording1.cs"
+				codeline="82"
+				itemindex="0"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="01:05.973"
+			timeRelativeToTestModuleStartTime="01:05.973"
+			timeWallClock="09:26:46"
+			time="01:05.973"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_3a0a9429\Recordin_3a0a9429_020cbdad_trace.jpg"
+			errthumb="images_Recordin_3a0a9429\Recordin_3a0a9429_020cbdad_trace_thumb.jpg">
+			<message>
+				Failed to find item 'FirstTest1Repository.ApplicationUnderTest.RxStudioLogo'. Please check that your whitelist allows Ranorex to access the process.<br/>No element found for path '/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']' within 1m.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Core.Repository.RepoItemInfo.FindInternal[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.&lt;>c__DisplayClass75_0`1.&lt;Find>b__0()&#13;&#10;   at Ranorex.Core.Testing.Services.NoMaintenanceModeService.HandleElementNotFound[T](Func`1 action, RepoItemInfo entry)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.Find[T](Boolean findSingle, Boolean throwException, Duration effectiveTimeoutOverride)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException, Duration waitTimeout)&#13;&#10;   at Ranorex.Core.Repository.RepoItemInfo.CreateAdapter[T](Boolean throwException)&#13;&#10;   at FirstTest1.FirstTest1RepositoryFolders.ApplicationUnderTestAppFolder.get_RxStudioLogo() in c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\FirstTest1Repository.cs:line 133&#13;&#10;   at FirstTest1.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\Recording1.cs:line 83&#13;&#10;   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\FirstTest1\FirstTest1\Recording1.cs"
+				codeline="83"
+				type="repoitem"
+				path="/form[@processname='RxDemoApp']/?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']"
+				itempath="?/?/tabpage[@controlname='RxTabIntroduction']/picture[@controlname='RxStudioLogo']"
+				fullname="FirstTest1Repository.ApplicationUnderTest.RxStudioLogo"
+				id="f4e7804969be436f952c1bcd618c0581"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="0">
+			</metainfo>
+		</item>
+	</activity>
+</report>

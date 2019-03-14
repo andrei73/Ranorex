@@ -1,0 +1,335 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<report
+	progress="">
+	<activity
+		result="Failed"
+		duration="0ms"
+		durationms="0"
+		type="root"
+		rid="29d23b9d7e306f8"
+		totalerrorcount="1"
+		totalwarningcount="5"
+		totalsuccesstestcasecount="0"
+		totalfailedtestcasecount="0"
+		totalblockedtestcasecount="0"
+		childsuccesscount="0"
+		childfailedcount="0"
+		childblockedcount="0"
+		totalsuccesscount="0"
+		totalfailedcount="0"
+		totalblockedcount="0"
+		totalmaintenancemodecount="0"
+		user="savoiuan"
+		rxversion="9.0.0.0"
+		host="RACKJJTT4W"
+		osversion="Windows 10 64bit"
+		runtimeversion="4.0.30319.42000"
+		procarch="32bit"
+		oslanguage="en-US"
+		dtnlanguage="en-US"
+		screenresolution="4480x1440"
+		timestamp="2/28/2019 5:02:25 PM"
+		timestampiso="2019-02-28T15:02:25"
+		endtime="2/28/2019 5:02:39 PM"
+		timeoutfactor="1"
+		module="Recording1">
+		<detail>
+			Recording1
+		</detail>
+		<errormessage>
+			Failed to move to location '12;18' within element '{ATag:In Stoc }'.
+		</errormessage>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.788"
+			timeRelativeToTestModuleStartTime="00:05.789"
+			timeWallClock="17:02:30"
+			time="00:05.788"
+			level="Warn"
+			category="General">
+			<message>
+				Different display DPI scaling values are in use. Please make sure all connected displays have the same DPI scaling value.<br/>The following website provides more information on this technology limitation:<br/>https://www.ranorex.com/help/v9.0/interfaces-connectivity/technology-instrumentation/general-troubleshooting/#DifferentDPIScalingValues<br/>(This message is only shown once per report.)
+			</message>
+			<metainfo
+				limitationName="DifferentDpi"
+				showInProgressDialog="False"
+				loglvl="Warn">
+			</metainfo>
+		</item>
+		<varbindings>
+		</varbindings>
+		<item
+			timeRelativeToTestSuiteStartTime="00:05.917"
+			timeRelativeToTestModuleStartTime="00:05.918"
+			timeWallClock="17:02:31"
+			time="00:05.917"
+			level="Info"
+			category="Keyboard">
+			<message>
+				Key sequence '{LMenu down}{Tab}{Tab}{Tab}{LMenu up}{Escape}'.
+			</message>
+			<metainfo
+				itemindex="0"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="82"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:06.478"
+			timeRelativeToTestModuleStartTime="00:06.479"
+			timeWallClock="17:02:31"
+			time="00:06.478"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.DivTagPRODUSE' at 67;26.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.emag.ro']//nav[#'auxiliary']/?/?/div/ul[1]/?/?/div[@innertext~'^\ PRODUSE\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+				itempath=".//nav[#'auxiliary']/?/?/div/ul[1]/?/?/div[@innertext~'^\ PRODUSE\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+				fullname="MyTestRepository.ApplicationUnderTest.DivTagPRODUSE"
+				id="ab8e7d43771b45a1935026b12dd4418f"
+				timeout="60000"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="86"
+				itemindex="1"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:08.713"
+			timeRelativeToTestModuleStartTime="00:08.714"
+			timeWallClock="17:02:33"
+			time="00:08.713"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'MyTestRepository.ApplicationUnderTest'. In order to analyze this issue, please contact support@ranorex.com with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//nav[#'auxiliary']/?/?/div/ul[1]/?/?/div[@innertext~'^\ PRODUSE\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']"
+				invertedPath="self::div[@innertext~'^\ PRODUSE\ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ \ ']/parent::?/parent::?/parent::ul/parent::div/parent::?/parent::?/parent::nav[#'auxiliary']/ancestor-or-self::*"
+				basePathToCachedFolder="/dom[@domain='www.emag.ro']"
+				invertedBasePath="self::dom[@domain='www.emag.ro']/parent::host/self::*"
+				AbsoluteBasePath="/dom[@domain='www.emag.ro']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="5"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="87"
+				loglvl="Warn"
+				itemindex="1">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.541"
+			timeRelativeToTestModuleStartTime="00:09.542"
+			timeWallClock="17:02:34"
+			time="00:09.541"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.PCPerifericeSoftware' at 57;15.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.emag.ro']/body/div[3]/div[1]//ul/li[2]/?/?/span[@innertext='PC, Periferice &amp; Software']"
+				itempath="body/div[3]/div[1]//ul/li[2]/?/?/span[@innertext='PC, Periferice &amp; Software']"
+				fullname="MyTestRepository.ApplicationUnderTest.PCPerifericeSoftware"
+				id="b558f1c2c4f34b8ca354eefff2e5be76"
+				timeout="60000"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="90"
+				itemindex="2"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:09.629"
+			timeRelativeToTestModuleStartTime="00:09.630"
+			timeWallClock="17:02:34"
+			time="00:09.629"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'MyTestRepository.ApplicationUnderTest'. In order to analyze this issue, please contact support@ranorex.com with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="body/div[3]/div[1]//ul/li[2]/?/?/span[@innertext='PC, Periferice &amp; Software']"
+				invertedPath="self::span[@innertext='PC, Periferice &amp; Software']/parent::?/parent::?/parent::li/parent::ul/ancestor-or-self::div/parent::div/parent::body/parent::*"
+				basePathToCachedFolder="/dom[@domain='www.emag.ro']"
+				invertedBasePath="self::dom[@domain='www.emag.ro']/parent::host/self::*"
+				AbsoluteBasePath="/dom[@domain='www.emag.ro']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="91"
+				loglvl="Warn"
+				itemindex="2">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.310"
+			timeRelativeToTestModuleStartTime="00:10.311"
+			timeWallClock="17:02:35"
+			time="00:10.310"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.DesktopPC' at 51;24.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.emag.ro']/body/div[3]/div[1]/div/div[2]/div[2]/?/?/ul/li[1]/div[1]/a[@innertext='Desktop PC']"
+				itempath="body/div[3]/div[1]/div/div[2]/div[2]/?/?/ul/li[1]/div[1]/a[@innertext='Desktop PC']"
+				fullname="MyTestRepository.ApplicationUnderTest.DesktopPC"
+				id="3fdc87a13c274f8c86a5df59b09977cd"
+				timeout="60000"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="94"
+				itemindex="3"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:10.399"
+			timeRelativeToTestModuleStartTime="00:10.400"
+			timeWallClock="17:02:35"
+			time="00:10.399"
+			level="Warn"
+			category="Repository">
+			<message>
+				Failed to update the cached element for folder 'MyTestRepository.ApplicationUnderTest'. In order to analyze this issue, please contact support@ranorex.com with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath="body/div[3]/div[1]/div/div[2]/div[2]/?/?/ul/li[1]/div[1]/a[@innertext='Desktop PC']"
+				invertedPath="self::a[@innertext='Desktop PC']/parent::div/parent::li/parent::ul/parent::?/parent::?/parent::div/parent::div/parent::div/parent::div/parent::div/parent::body/parent::*"
+				basePathToCachedFolder="/dom[@domain='www.emag.ro']"
+				invertedBasePath="self::dom[@domain='www.emag.ro']/parent::host/self::*"
+				AbsoluteBasePath="/dom[@domain='www.emag.ro']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="1"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="95"
+				loglvl="Warn"
+				itemindex="3">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.109"
+			timeRelativeToTestModuleStartTime="00:11.110"
+			timeWallClock="17:02:36"
+			time="00:11.109"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by -600 units.
+			</message>
+			<metainfo
+				itemindex="4"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="98"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:11.645"
+			timeRelativeToTestModuleStartTime="00:11.646"
+			timeWallClock="17:02:36"
+			time="00:11.645"
+			level="Info"
+			category="Mouse">
+			<message>
+				Mouse scroll Vertical by 120 units.
+			</message>
+			<metainfo
+				itemindex="5"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="102"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:12.161"
+			timeRelativeToTestModuleStartTime="00:12.162"
+			timeWallClock="17:02:37"
+			time="00:12.161"
+			level="Info"
+			category="Mouse"
+			errimg="images_Recordin_17d8713e\Recordin_17d8713e_91423ed3_trace.jpg"
+			errthumb="images_Recordin_17d8713e\Recordin_17d8713e_91423ed3_trace_thumb.jpg">
+			<message>
+				Mouse Left Click item 'ApplicationUnderTest.InStoc' at 12;18.
+			</message>
+			<metainfo
+				type="repoitem"
+				path="/dom[@domain='www.emag.ro']//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]//a[@innertext='In Stoc ']"
+				itempath=".//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]//a[@innertext='In Stoc ']"
+				fullname="MyTestRepository.ApplicationUnderTest.InStoc"
+				id="49d9d28581804c7ea9e0c1187e3a3d92"
+				timeout="60000"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="106"
+				itemindex="6"
+				loglvl="Info">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.453"
+			timeRelativeToTestModuleStartTime="00:13.454"
+			timeWallClock="17:02:38"
+			time="00:13.453"
+			level="Warn"
+			category="Repository"
+			errimg="images_Recordin_17d8713e\Recordin_17d8713e_3be0bd64_trace.jpg"
+			errthumb="images_Recordin_17d8713e\Recordin_17d8713e_3be0bd64_trace_thumb.jpg">
+			<message>
+				Failed to update the cached element for folder 'MyTestRepository.ApplicationUnderTest'. In order to analyze this issue, please contact support@ranorex.com with a copy of this report, the repository, and a snapshot of the automated application.
+			</message>
+			<metainfo
+				descendantPath=".//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]//a[@innertext='In Stoc ']"
+				invertedPath="self::a[@innertext='In Stoc ']/ancestor-or-self::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div/parent::div[#'page-skin']/ancestor-or-self::*"
+				basePathToCachedFolder="/dom[@domain='www.emag.ro']"
+				invertedBasePath="self::dom[@domain='www.emag.ro']/parent::host/self::*"
+				AbsoluteBasePath="/dom[@domain='www.emag.ro']"
+				folderSearchTimeout="30s"
+				folderElementCandidates.Count="0"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="107"
+				loglvl="Warn"
+				itemindex="6">
+			</metainfo>
+		</item>
+		<item
+			timeRelativeToTestSuiteStartTime="00:13.752"
+			timeRelativeToTestModuleStartTime="00:13.753"
+			timeWallClock="17:02:38"
+			time="00:13.752"
+			level="Error"
+			category="Module"
+			errimg="images_Recordin_17d8713e\Recordin_17d8713e_2d2f44cc_trace.jpg"
+			errthumb="images_Recordin_17d8713e\Recordin_17d8713e_2d2f44cc_trace_thumb.jpg">
+			<message>
+				Failed to move to location '12;18' within element '{ATag:In Stoc }'.<br/>The pointer cannot be moved to point '{X=230,Y=879}' since it is outside of the visible desktop.
+			</message>
+			<metainfo
+				stacktrace="   at Ranorex.Mouse.MoveTo(Element element, Location location, Duration moveTime)
+   at Ranorex.Mouse.Click(Element element, MouseButtons buttons, Location location, Int32 times, Duration moveTime)
+   at Ranorex.Adapter.Click(MouseButtons buttons, Location location, Int32 times, Duration moveTime, Boolean showOutOfBoundsWarning)
+   at Ranorex.Adapter.Click(Location location)
+   at MyTest.Recording1.Ranorex.Core.Testing.ITestModule.Run() in c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs:line 107
+   at Ranorex.Core.Testing.TestModuleLeaf.RunInternal(DataContext parentDataContext, Int32 iteration, Int32 iterationCount, Boolean skipIteration)"
+				codefile="c:\Users\savoiuan\Documents\Ranorex\RanorexStudio Projects\MyTest\MyTest\Recording1.cs"
+				codeline="107"
+				type="repoitem"
+				path="/dom[@domain='www.emag.ro']//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]//a[@innertext='In Stoc ']"
+				itempath=".//div[#'page-skin']/div[2]/div/div[3]/div[1]/div[2]/div[2]/div[1]//a[@innertext='In Stoc ']"
+				fullname="MyTestRepository.ApplicationUnderTest.InStoc"
+				id="49d9d28581804c7ea9e0c1187e3a3d92"
+				timeout="60000"
+				loglvl="Error"
+				itemindex="6">
+			</metainfo>
+		</item>
+	</activity>
+</report>

@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="bc1ef49a-07f9-4c8f-bb29-fe5842d6829a"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="SecondTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.strava.com/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="e577c02c-777c-4365-bd51-43b4615ea479"
+	name="SecondTestRepository"
+	relativepath="SecondTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="SecondTestRepository"
+		namespace="SecondTest">
+		</codegen>
+		<rootfolder
+		id="95c86ef8-3525-4b00-88f0-16d54a3f3f84"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>

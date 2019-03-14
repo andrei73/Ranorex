@@ -1,0 +1,88 @@
+﻿<repository
+id="e577c02c-777c-4365-bd51-43b4615ea479"
+name="SecondTestRepository"
+rxversion="9.0">
+	<codegen
+	classname="SecondTestRepository"
+	namespace="SecondTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="95c86ef8-3525-4b00-88f0-16d54a3f3f84"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="11d44127-8704-401e-8ea2-78cdde221bb9"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="d3635c57-4e22-42e7-9c90-97f224af1d7c"
+			name="Branding"
+			refimgid="3d09c137-dfd3-4937-a6d8-dd0f75c40a4e"
+			refpath="/dom[@domain='www.strava.com']//div[#'view']/header/div/div/div"
+			searchtimeout="30000ms">
+				/dom[@domain='www.strava.com']//div[#'view']/header/div/div/div
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="e7d63223-ae0e-4bc3-983e-1cf02ef30d31"
+			name="ATagLogIn"
+			refimgid="bf6756bd-f5c2-462d-aa1d-9ca986d926e4"
+			refpath="/dom[@domain='www.strava.com']//div[#'view']/header/div/nav/a[@innertext='Log In']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.strava.com']//div[#'view']//nav/a[@innertext='Log In']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="21d3814a-561b-4e66-8445-7dfbcfa938d0"
+			name="ATagLogInUsingFacebook"
+			refimgid="80b6f1a4-bd78-4949-82e0-cfbb78a3d23c"
+			refpath="/dom[@domain='www.strava.com']//form[#'login_form']/div[1]/a[@innertext='Log in using Facebook']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.strava.com']//form[#'login_form']/?/?/a[@innertext='Log in using Facebook']
+			</item>
+			<item
+			addcaps="unknown,webelement,imgtag"
+			capname="imgtag"
+			id="8739a86c-6dc3-49b9-9e1d-58c390db0746"
+			name="AndreiSăvoiu"
+			refimgid="94f92bb3-6103-4d05-ab78-f6499545133d"
+			refpath="/dom[@domain='www.strava.com']//div[#'athlete-profile']/div[1]/a[@href='https://www.strava.com/athletes/20359837']/div/div/div/img[@alt='Andrei Săvoiu']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.strava.com']//div[#'athlete-profile']/div[1]/a[@href~'^https://www\.strava\.com/at']//img[@alt='Andrei S&#259;voiu']
+			</item>
+			<basepath>
+				/dom[@domain='www.strava.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
+dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
+yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
+9/vEbaWh7TO1xi4qmjspfWKhuLqN++VGtLqn5BTVk1lQRbRVHGn4X8nTNclYtD020smBYDjaHhsJ
+cIxPbY8YIr+9viEGgqGwDBxLvixXfGJaLCLdedUfCwRDyPDKWoiF5SAuT0AMSA+2BXhXZqmydFBu
+bkfbmkFpayPOyQW8CwHs7jUxIN1NOkEa1llLGA7bsYX7KbTd4GiuiUuVbxhyzTMwuiwGpFX5lkLU
+dFjJ+55Mw5yGGpsRtX6Kk2Ue9jWewtBRx9eRJTEg7XnWF+TBo25SzUmo3inINLjIKoPD1QXsbNvN
+6fxr9Az5xIDm9kOm5gLce+xEW/aF1BYlCmshSr2PMxm32HV3B8ez0/jQPycG1NklTMxsUGUaQaMD
+lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
+zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
+8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
+F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
+</repository>
