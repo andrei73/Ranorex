@@ -1,0 +1,229 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>FourthTest</name>
+    </assembly>
+    <members>
+        <member name="T:FourthTest.CloseBrowser">
+             <summary>
+            The CloseBrowser recording.
+             </summary>
+        </member>
+        <member name="F:FourthTest.CloseBrowser.repo">
+            <summary>
+            Holds an instance of the FourthTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:FourthTest.CloseBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FourthTest.CloseBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FourthTest.CloseBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FourthTest.CloseBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FourthTest.CloseBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FourthTest.CloseBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FourthTest.FourthTestRepository">
+            <summary>
+            The class representing the FourthTestRepository element repository.
+            </summary>
+        </member>
+        <member name="M:FourthTest.FourthTestRepository.#ctor">
+            <summary>
+            Repository class constructor.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepository.Instance">
+            <summary>
+            Gets the singleton class instance representing the FourthTestRepository element repository.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepository.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepository.ApplicationUnderTest">
+            <summary>
+            The ApplicationUnderTest folder.
+            </summary>
+        </member>
+        <member name="T:FourthTest.FourthTestRepositoryFolders">
+            <summary>
+            Inner folder classes.
+            </summary>
+        </member>
+        <member name="T:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder">
+            <summary>
+            The ApplicationUnderTestAppFolder folder.
+            </summary>
+        </member>
+        <member name="M:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.#ctor(Ranorex.Core.Repository.RepoGenBaseFolder)">
+            <summary>
+            Creates a new ApplicationUnderTest  folder.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.Self">
+            <summary>
+            The Self item.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.SelfInfo">
+            <summary>
+            The Self item info.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.LogoIconContainer">
+            <summary>
+            The LogoIconContainer item.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.LogoIconContainerInfo">
+            <summary>
+            The LogoIconContainer item info.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.Search">
+            <summary>
+            The Search item.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.SearchInfo">
+            <summary>
+            The Search item info.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.VideoTitle">
+            <summary>
+            The VideoTitle item.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.VideoTitleInfo">
+            <summary>
+            The VideoTitle item info.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.UrmaCineIubesteSiLasa">
+            <summary>
+            The UrmaCineIubesteSiLasa item.
+            </summary>
+        </member>
+        <member name="P:FourthTest.FourthTestRepositoryFolders.ApplicationUnderTestAppFolder.UrmaCineIubesteSiLasaInfo">
+            <summary>
+            The UrmaCineIubesteSiLasa item info.
+            </summary>
+        </member>
+        <member name="T:FourthTest.OpenBrowser">
+             <summary>
+            The OpenBrowser recording.
+             </summary>
+        </member>
+        <member name="F:FourthTest.OpenBrowser.repo">
+            <summary>
+            Holds an instance of the FourthTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:FourthTest.OpenBrowser.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FourthTest.OpenBrowser.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FourthTest.OpenBrowser.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FourthTest.OpenBrowser.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FourthTest.OpenBrowser.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FourthTest.OpenBrowser.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:FourthTest.Recording1">
+             <summary>
+            The Recording1 recording.
+             </summary>
+        </member>
+        <member name="F:FourthTest.Recording1.repo">
+            <summary>
+            Holds an instance of the FourthTestRepository repository.
+            </summary>
+        </member>
+        <member name="M:FourthTest.Recording1.#ctor">
+            <summary>
+            Constructs a new instance.
+            </summary>
+        </member>
+        <member name="M:FourthTest.Recording1.Start">
+            <summary>
+            Starts the replay of the static recording <see cref="P:FourthTest.Recording1.Instance"/>.
+            </summary>
+        </member>
+        <member name="M:FourthTest.Recording1.Ranorex#Core#Testing#ITestModule#Run">
+            <summary>
+            Performs the playback of actions in this recording.
+            </summary>
+            <remarks>You should not call this method directly, instead pass the module
+            instance to the <see cref="M:Ranorex.Core.Testing.TestModuleRunner.Run(Ranorex.Core.Testing.ITestModule)"/> method
+            that will in turn invoke this method.</remarks>
+        </member>
+        <member name="M:FourthTest.Recording1.Init">
+            <summary>
+            This method gets called right after the recording has been started.
+            It can be used to execute recording specific initialization code.
+            </summary>
+        </member>
+        <member name="P:FourthTest.Recording1.Instance">
+            <summary>
+            Gets a static instance of this recording.
+            </summary>
+        </member>
+        <member name="T:__RxMain.__RxProgram">
+            <summary>
+            Modified Program class that ensures that the Ranorex System gets initialized and cleaned up
+            correctly. This file is auto-generated during project build. This class will invoke the
+            original 'Main' method implementation as needed.
+            </summary>
+        </member>
+        <member name="M:__RxMain.__RxProgram.Main(System.String[])">
+            <summary>
+            The entry point of the application.
+            </summary>
+            <param name="args">Contains any number of command line arguments.</param>
+            <returns>The return value of the projects original 'Main' implementation.</returns>
+        </member>
+    </members>
+</doc>

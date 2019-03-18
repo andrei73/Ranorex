@@ -1,0 +1,10 @@
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\FourthTest.rxtmg
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\FourthTest.rxtst
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\FourthTest.exe.config
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\FourthTest.xml
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\FourthTest.exe
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\FourthTest.pdb
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\bin\Debug\Ranorex.Core.Resolver.dll
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\obj\x86\Debug\FourthTest.csprojResolveAssemblyReference.cache
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\obj\x86\Debug\FourthTest.exe
+C:\GIT\Ranorex\Ranorex\RanorexStudio Projects\FourthTest\FourthTest\obj\x86\Debug\FourthTest.pdb
