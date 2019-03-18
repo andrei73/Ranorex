@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<recordtable
+embeddedrepository="False"
+id="ba40838c-b204-478d-b5e3-a00e56b5a940"
+mode="Desktop"
+rxversion="9.0">
+	<repeatcount>
+		1
+	</repeatcount>
+	<turbomode>
+		False
+	</turbomode>
+	<genreport>
+		True
+	</genreport>
+	<speedfactor>
+		1
+	</speedfactor>
+	<useDefaultItemLogging>
+		True
+	</useDefaultItemLogging>
+	<codegen
+	classname="OpenBrowser"
+	namespace="FourthTest">
+	</codegen>
+	<variables>
+	</variables>
+	<recorditems>
+		<openwebsiterecorditem
+		args=""
+		browser="chrome"
+		clearcache="False"
+		clearcookies="False"
+		enabled="True"
+		incognito="False"
+		instrument="True"
+		killexisting="False"
+		maximized="False"
+		optional="False">
+			<comment>
+			</comment>
+			<bindings>
+			</bindings>
+			<url>
+				https://www.youtube.com/
+			</url>
+		</openwebsiterecorditem>
+	</recorditems>
+	<repository
+	id="ca30be28-f71b-4778-9b8a-e32296932a87"
+	name="FourthTestRepository"
+	relativepath="FourthTestRepository.rxrep"
+	rxversion="9.0">
+		<codegen
+		classname="FourthTestRepository"
+		namespace="FourthTest">
+		</codegen>
+		<rootfolder
+		id="51afa060-50f1-43ca-bea3-82737e97f17f"
+		name="_rootdummy_">
+		</rootfolder>
+	</repository>
+	<usercodefile
+	lang="CSharp">
+		OpenBrowser.UserCode.cs
+	</usercodefile>
+	<references>
+	</references>
+</recordtable>
