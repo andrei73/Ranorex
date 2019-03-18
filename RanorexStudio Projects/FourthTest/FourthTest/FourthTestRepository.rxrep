@@ -1,31 +1,71 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
-<repository
-name="FourthTestRepository"
+﻿<repository
 id="ca30be28-f71b-4778-9b8a-e32296932a87"
+name="FourthTestRepository"
 rxversion="9.0">
-  <codegen
-  classname="FourthTestRepository"
-  namespace="FourthTest"/>
-  <rootfolder
-  name="Root"
-  id="51afa060-50f1-43ca-bea3-82737e97f17f"
-  searchtimeout="30000ms"
-  capname="unknown"
-  isrooted="True"
-  usecache="True">
-      <appfolder
-          addcaps="container,webdocument"
-          capname="webdocument"
-          id="ba317e24-d171-4bec-af53-685f51ae2603"
-          isrooted="True"
-          name="ApplicationUnderTest"
-          searchtimeout="30000ms"
-          usecache="True">
-          <basepath>
-              /dom[@domain='www.youtube.com']
-          </basepath>
-          <icon>
-iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
+	<codegen
+	classname="FourthTestRepository"
+	namespace="FourthTest">
+	</codegen>
+	<rootfolder
+	capname="unknown"
+	id="51afa060-50f1-43ca-bea3-82737e97f17f"
+	isrooted="True"
+	name="Root"
+	searchtimeout="0ms"
+	usecache="True">
+		<appfolder
+		addcaps="container,webdocument"
+		capname="webdocument"
+		id="ba317e24-d171-4bec-af53-685f51ae2603"
+		isrooted="True"
+		name="ApplicationUnderTest"
+		searchtimeout="30000ms"
+		usecache="True">
+			<item
+			addcaps="unknown,webelement,divtag"
+			capname="divtag"
+			id="1fed5552-63a0-4336-a6cf-9c479d1b9a6e"
+			name="LogoIconContainer"
+			refimgid="67bbf34d-c87e-4d63-bea8-f98fc23182e2"
+			refpath="/dom[@domain='www.youtube.com']//div[#'logo-icon-container']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//div[#'logo-icon-container']
+			</item>
+			<item
+			addcaps="unknown,webelement,inputtag"
+			capname="inputtag"
+			id="7bdd3563-2a54-4380-a1a7-a402744a0bca"
+			name="Search"
+			refimgid="7b0848bc-0b9b-48cf-a263-a4a5ccf5048f"
+			refpath="/dom[@domain='www.youtube.com']//div[#'search-input']/input[@id='search']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//div[#'search-input']/input[@id='search']
+			</item>
+			<item
+			addcaps="unknown,webelement,atag"
+			capname="atag"
+			id="0d25ae5c-bf04-406c-99ed-d970c26adb09"
+			name="VideoTitle"
+			refimgid="031610bb-c01b-4a43-9437-3bf187bb0939"
+			refpath="/dom[@domain='www.youtube.com']//tag[#'page-manager']/tag[@tagname='ytd-search']/div[@id='container']/tag/div/tag[@tagname='ytd-section-list-renderer']/div[@id='contents']/tag/div[@id='contents']/tag[3]/div[@id='dismissable']/div/div[@id='meta']/div/h3/a[@id='video-title']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//tag[#'page-manager']/?/?/div[@id='container']/?/?/div[@id='primary']/?/?/div[@id='contents']/?/?/div[@id='contents']/tag[3]/div[@id='dismissable']/?/?/div[@id='meta']/div[@id='title-wrapper']/?/?/a[@id='video-title']
+			</item>
+			<item
+			addcaps="unknown,webelement"
+			capname="webelement"
+			id="0e8275d7-e1ab-4f8f-98e7-61c7adacf825"
+			name="UrmaCineIubesteSiLasa"
+			refimgid="39e6d635-f035-4041-946c-dfbbf8df2003"
+			refpath="/dom[@domain='www.youtube.com']//div[#'info-contents']/tag[@tagname='ytd-video-primary-info-renderer']/div[@id='container']/h1/tag[@innertext='Urma - Cine iubeste si lasa']"
+			searchtimeout="30000ms">
+				/dom[@domain='www.youtube.com']//div[#'info-contents']/?/?/div[@id='container']/?/?/tag[@innertext~'^Urma\ -\ Cine\ iubeste\ si\ la']
+			</item>
+			<basepath>
+				/dom[@domain='www.youtube.com']
+			</basepath>
+			<icon>
+				iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAALGPC/xhBQAAACBjSFJN
 AAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAGHRFWHRTb2Z0d2FyZQBQYWlu
 dC5ORVQgdjMuMzE3g3eGAAACKklEQVQ4T43R20vTcRjHcS/6G4Kgyy6KKKjwJogIDBJjIBUt2YVD
 yoGVmWUWzozMC92YaWqeSE1s0dThOtjBWUlKkMxDudXU1lCU6XSepzu82+/nvNrX6APP1e95Xt/f
@@ -38,9 +78,11 @@ lc7EIcse4vXJJF18xX7FVUpq6njd5xUDKVeKcE2v4xib52bxIAdza9mbf4CE9OscUZo5q3nO295p
 zD0zYuBcegHOCb+8KpvDi6G5hRMX8klIKaei6b083PdjCdNHjxhQqO/gcPsj77CB27PO2OQa9j+r
 8tq+/VyODC/yaXBxeyBRlUPv8Dzt3eO86PrNs85Rml7+ot7soLrVTqVpsypMTjGQcD5L/vC/tTkV
 F/cXNG0rDkAnVtkAAAAASUVORK5CYII=
-          </icon>
-      </appfolder>
-      <basepath/>
-  </rootfolder>
-  <variables/>
+			</icon>
+		</appfolder>
+		<basepath>
+		</basepath>
+	</rootfolder>
+	<variables>
+	</variables>
 </repository>

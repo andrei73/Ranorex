@@ -79,6 +79,30 @@ namespace FourthTest
 
             Init();
 
+            Report.Log(ReportLevel.Info, "Validation", "Validating Exists on item 'ApplicationUnderTest.LogoIconContainer'.", repo.ApplicationUnderTest.LogoIconContainerInfo, new RecordItemIndex(0));
+            Validate.Exists(repo.ApplicationUnderTest.LogoIconContainerInfo);
+            Delay.Milliseconds(100);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.Search' at 30;13.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(1));
+            repo.ApplicationUnderTest.Search.Click("30;13");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence 'cine iubeste si lasa' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(2));
+            repo.ApplicationUnderTest.Search.PressKeys("cine iubeste si lasa");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Keyboard", "Key sequence '{Return}' with focus on 'ApplicationUnderTest.Search'.", repo.ApplicationUnderTest.SearchInfo, new RecordItemIndex(3));
+            repo.ApplicationUnderTest.Search.PressKeys("{Return}");
+            Delay.Milliseconds(0);
+            
+            Report.Log(ReportLevel.Info, "Mouse", "Mouse Left Click item 'ApplicationUnderTest.VideoTitle' at 82;18.", repo.ApplicationUnderTest.VideoTitleInfo, new RecordItemIndex(4));
+            repo.ApplicationUnderTest.VideoTitle.Click("82;18");
+            Delay.Milliseconds(200);
+            
+            Report.Log(ReportLevel.Info, "Validation", "Validating AttributeEqual (InnerText='Urma - Cine iubeste si lasa') on item 'ApplicationUnderTest.UrmaCineIubesteSiLasa'.", repo.ApplicationUnderTest.UrmaCineIubesteSiLasaInfo, new RecordItemIndex(5));
+            Validate.AttributeEqual(repo.ApplicationUnderTest.UrmaCineIubesteSiLasaInfo, "InnerText", "Urma - Cine iubeste si lasa");
+            Delay.Milliseconds(100);
+            
         }
 
 #region Image Feature Data
